@@ -8,4 +8,5 @@
 python3 -m venv snaptrash.venv
 source snaptrash.venv/bin/activate
 pip install -r requirements.txt
+python -c "import nltk; nltk.download('wordnet')"
 ```
