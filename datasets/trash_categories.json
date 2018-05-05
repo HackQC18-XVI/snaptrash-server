@@ -254,7 +254,7 @@
   {
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Métal et aluminium",
-    "description": "Bouchons et couvercles",
+    "description": "Bouchons et couvercles (Métal)",
     "instructions-speciales": null
   },
   {
@@ -326,7 +326,7 @@
   {
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
-    "description": "Bouchons et couvercles",
+    "description": "Bouchons et couvercles (Plastique)",
     "instructions-speciales": " "
   },
   {
