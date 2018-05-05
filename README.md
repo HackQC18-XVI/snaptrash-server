@@ -19,3 +19,13 @@ cd server/
 FLASK_APP='server.py'
 flask run --host=0.0.0.0
 ```
+
+## Usage
+
+`/predict` (Get best match in trash categories):
+
+```sh
+HOST='localhost:5000'
+FILE='banana.jpeg'
+curl -F file=@$FILE $HOST/predict
+```
