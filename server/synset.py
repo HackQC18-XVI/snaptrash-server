@@ -7,7 +7,7 @@ from nltk.corpus import wordnet
 wordnet.ensure_loaded()
 
 
-with open('server/datasets/trash_categories.json') as trash_categories_file:
+with open('datasets/trash_categories.json') as trash_categories_file:
     TRASH_CATEGORIES = json.load(trash_categories_file)
 
 SYNSET_CHOICES = [wordnet.synset(cat['synset']) for cat in TRASH_CATEGORIES]
