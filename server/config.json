@@ -1,0 +1,11 @@
+{
+	"path": {
+		"model": "model"
+	},
+	"predictions":{
+		"top_n": 5
+	},
+	"tf": {
+		"log_level": "2"
+	}
+}
