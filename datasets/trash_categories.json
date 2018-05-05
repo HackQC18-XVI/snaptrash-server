@@ -258,12 +258,6 @@
     "instructions-speciales": null
   },
   {
-    "nom-collecte": " ",
-    "categorie": null,
-    "description": null,
-    "instructions-speciales": null
-  },
-  {
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Journaux, circulaires et revues",
@@ -483,12 +477,6 @@
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Résidus TIC",
     "description": "Téléviseurs",
-    "instructions-speciales": null
-  },
-  {
-    "nom-collecte": " ",
-    "categorie": null,
-    "description": null,
     "instructions-speciales": null
   }
 ]
