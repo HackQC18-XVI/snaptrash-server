@@ -4,6 +4,7 @@ import tempfile
 from flask import Flask
 from flask import jsonify
 from flask import request
+from tf import TFNodeLookup
 
 
 app = Flask(__name__)
@@ -21,16 +22,15 @@ def ping():
     return "pong"
 
 
-@app.route('/photo', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def upload():
     file = request.files['file']
     results = []
 
     if file and allowed_file(file.filename):
-        # get classification from Sultan's classifier
-
-        pass
-    return jsonify(results)
+    	tf_object = TFNodeLookup()
+    	pred = tf_object.run_inference_on_image(file.read())
+    return jsonify(pred)
 
 
 if __name__ == "__main__":
