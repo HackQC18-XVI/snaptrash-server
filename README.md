@@ -2,6 +2,12 @@
 
 :ghost::put_litter_in_its_place: Use image recognition to know where to dispose of anything.
 
+The API is a [Flask](http://flask.pocoo.org) application.
+
+Images are classified by a [TensorFlow](https://www.tensorflow.org/) model trained over the [ImageNet](http://www.image-net.org/) database.
+
+We use [WordNet](https://wordnet.princeton.edu/) to map the recognition labels with trash disposal categories from [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte).
+
 ## Setup
 
 ```sh
