@@ -1,0 +1,23 @@
+FROM            python:3.6.4
+EXPOSE          5005
+
+# Home directory
+ENV HOME        /home/server
+WORKDIR         $HOME
+
+# Copy files for installation
+COPY            ./requirements.txt      $HOME/requirements.txt
+
+# Install dependencies
+USER            root
+RUN             pip install \
+                    --no-cache-dir \
+                    --disable-pip-version-check \
+                    -r requirements.txt
+
+COPY            ./                      $HOME
+
+ENV FLASK_APP   $HOME/server.py
+
+# Run server
+CMD             ["flask", "run", "--host=0.0.0.0", "--port=5005"]

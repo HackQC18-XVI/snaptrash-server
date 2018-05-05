@@ -1,0 +1,13 @@
+---
+version: '3'
+
+services:
+    snaptrash-server:
+        build:
+            context: server
+            dockerfile: Dockerfile-dev
+        container_name: snaptrash-server
+        volumes:
+            - ./server:/home/server
+        ports:
+            - "5005:5005"
