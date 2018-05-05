@@ -1,479 +1,559 @@
 [
   {
+    "id": "copeaux",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Bois",
     "description": "Copeaux de bois",
     "instructions-speciales": "Copeaux de bois d'au moins 1 centimètre d'épaisseur"
   },
   {
+    "id": "planches",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Bois",
     "description": "Planches, madriers, bois traité, poutres et dormants de moins de 2 m",
     "instructions-speciales": null
   },
   {
+    "id": "souches",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Bois",
     "description": "Souches, troncs d'arbres et branches provenant de Laval et de moins de 2 m de long",
     "instructions-speciales": null
   },
   {
+    "id": "baignoires",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Baignoires, lavabos, cuves, douches et cuves de toilettes",
     "instructions-speciales": null
   },
   {
+    "id": "bardeaux",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Bardeaux de toiture",
     "instructions-speciales": null
   },
   {
+    "id": "beton",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Béton, béton armé, mortier et ciment durcis en morceaux",
     "instructions-speciales": "Moins de 30 cm de long"
   },
   {
+    "id": "briques",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Briques, blocs et pièces de maçonnerie et pavage durci",
     "instructions-speciales": null
   },
   {
+    "id": "ceramique",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Céramique",
     "instructions-speciales": null
   },
   {
+    "id": "isolant",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Isolant",
     "instructions-speciales": null
   },
   {
+    "id": "platras",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Plâtras (gypse, etc.) de moins de 2 m de long",
     "instructions-speciales": null
   },
   {
+    "id": "tapis",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Tapis et prélart roulés et solidement ficelés de moins de 2 m de long",
     "instructions-speciales": null
   },
   {
+    "id": "tuyaux",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Tuyaux, tubes et drains de moins de 2,4 m de long",
     "instructions-speciales": null
   },
   {
+    "id": "vitre",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matériaux de construction",
     "description": "Vitre ",
     "instructions-speciales": null
   },
   {
+    "id": "contenants_divers",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matières recyclables",
     "description": "Contenants divers : plastique rigide des familles 1 à 5, verre clair et de couleur",
     "instructions-speciales": null
   },
   {
+    "id": "papier_carton",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Matières recyclables",
     "description": "Papier et carton",
     "instructions-speciales": null
   },
   {
+    "id": "acier",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Métal et aluminium",
     "description": "Acier d'armature, câbles et poutres d'acier",
     "instructions-speciales": "Moins de 2,4 m de long"
   },
   {
+    "id": "fer",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Métal et aluminium",
     "description": "Fer, fonte, acier et aluminium",
     "instructions-speciales": null
   },
   {
+    "id": "laveuses",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Métal et aluminium",
     "description": "Laveuses, poêles et sécheuses",
     "instructions-speciales": null
   },
   {
+    "id": "reservoirs",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Métal et aluminium",
     "description": "Réservoirs d'eau chaude",
     "instructions-speciales": null
   },
   {
+    "id": "terre",
     "nom-collecte": "Aires de réception de matériaux secs",
     "categorie": "Terre et pierre",
     "description": "Terre de jardin, pierre, sable et tourbe de provenance résidentielle. ",
     "instructions-speciales": "Ces matières sont acceptées uniquement au 4026, boulevard Dagenais Ouest"
   },
   {
+    "id": "filtres",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Filtres à café ",
     "instructions-speciales": null
   },
   {
+    "id": "litiere",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Litière d'animaux",
     "instructions-speciales": null
   },
   {
+    "id": "cartons_souilles",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Cartons souillés d'aliments : boîtes à pizza, vaisselle en carton, etc.",
     "instructions-speciales": null
   },
   {
+    "id": "essuie",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Essuie-tout, mouchoirs",
     "instructions-speciales": null
   },
   {
+    "id": "cendres",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Cendres froides (refroidit pendant 7 jours)",
     "instructions-speciales": null
   },
   {
+    "id": "cure",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Cure-dents et bâtonnets en bois",
     "instructions-speciales": null
   },
   {
+    "id": "cheveux",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Autres",
     "description": "Cheveux et poils",
     "instructions-speciales": null
   },
   {
+    "id": "fruits",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Comestible",
     "description": "Fruits et légumes entiers ou leurs restes",
     "instructions-speciales": null
   },
   {
+    "id": "grains",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Comestible",
     "description": "Grains de café et sachets de thé",
     "instructions-speciales": null
   },
   {
+    "id": "pain",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Comestible",
     "description": "Pain, riz, céréales",
     "instructions-speciales": null
   },
   {
+    "id": "viandes",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Comestible",
     "description": "Viandes, poissons, fruits de mer, volailles, os et coquilles de crustacés",
     "instructions-speciales": null
   },
   {
+    "id": "produits_laitiers_solides",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Comestible",
     "description": "Produits laitiers solides : fromage, beurre, etc.",
     "instructions-speciales": null
   },
   {
+    "id": "gazon",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Végétale",
     "description": "Gazon, feuilles mortes et terre à jardin pour un maximum de la moitié du bac vert roulant",
     "instructions-speciales": null
   },
   {
+    "id": "aiguilles",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Végétale",
     "description": "Aiguilles et cônes de conifères ",
     "instructions-speciales": null
   },
   {
+    "id": "fleurs",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Végétale",
     "description": "Fleurs, plantes, mauvaises herbes et résidus de jardinage",
     "instructions-speciales": null
   },
   {
+    "id": "foin",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Végétale",
     "description": "Foin et paille",
     "instructions-speciales": null
   },
   {
+    "id": "ecorces",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Végétale",
     "description": "Écorces, copeaux, bran de scie et racines",
     "instructions-speciales": null
   },
   {
+    "id": "branches",
     "nom-collecte": "Collecte des matières organiques",
     "categorie": "Végétale",
     "description": "Branches d'arbres  d'un maximum de 1,2 m et de 25 kg par section de branches",
     "instructions-speciales": null
   },
   {
+    "id": "capsules",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Autres",
     "description": "Capsules de café Nespresso",
     "instructions-speciales": "Les capsules de café NESPRESSO sont acceptées dans le bac de recyclage, lorsqu'elles sont déposées dans le sac vert distribué à cet effet par l'entreprise."
   },
   {
+    "id": "papier_contenants_aluminimum",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Métal et aluminium",
     "description": "Papier et contenants d'aluminium",
     "instructions-speciales": null
   },
   {
+    "id": "bouteilles_metal",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Métal et aluminium",
     "description": "Bouteilles et canettes d'aluminium",
     "instructions-speciales": null
   },
   {
+    "id": "boites_conserve",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Métal et aluminium",
     "description": "Boîtes de conserve",
     "instructions-speciales": null
   },
   {
+    "id": "bouchons_metal",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Métal et aluminium",
     "description": "Bouchons et couvercles (Métal)",
     "instructions-speciales": null
   },
   {
+    "id": "journaux",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Journaux, circulaires et revues",
     "instructions-speciales": null
   },
   {
+    "id": "feuilles",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Feuilles, enveloppes et sacs de papier",
     "instructions-speciales": null
   },
   {
+    "id": "livres",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Livres et annuaires téléphoniques",
     "instructions-speciales": null
   },
   {
+    "id": "rouleaux",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Rouleaux et boîtes de carton",
     "instructions-speciales": null
   },
   {
+    "id": "boites_oeufs",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Boîtes d'œufs",
     "instructions-speciales": null
   },
   {
+    "id": "cartons_lait_jus",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Papier et carton",
     "description": "Cartons de lait et carton de jus et leur bouchon (bien rincés)",
     "instructions-speciales": null
   },
   {
+    "id": "tetra_pak",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
     "description": "Contenants de type Tetra PakMD (carton de soupe de soupe prêt-à-manger, carton de jus vendus sur les tablettes, etc.)",
     "instructions-speciales": null
   },
   {
+    "id": "plastiques",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
     "description": "Plastiques de catégories 1, 2, 3, 4, 5, 7",
     "instructions-speciales": null
   },
   {
+    "id": "sacs_plastique",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
     "description": "Sacs de plastique",
     "instructions-speciales": null
   },
   {
+    "id": "sacs_pellicules_emballage",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
     "description": "Sacs et pellicules d'emballage",
     "instructions-speciales": null
   },
   {
+    "id": "bouchons_plastique",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
     "description": "Bouchons et couvercles (Plastique)",
     "instructions-speciales": null
   },
   {
+    "id": "bouteilles_plastique",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Plastique",
     "description": "Bouteilles (cosmétiques, produits alimentaires, etc.)",
     "instructions-speciales": null
   },
   {
+    "id": "bouteilles_verre",
     "nom-collecte": "Collecte des matières recyclables",
     "categorie": "Verre",
     "description": "Bouteilles et pots de toute couleur",
     "instructions-speciales": null
   },
   {
+    "id": "ordures",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
     "categorie": "déchets",
     "description": "ordures ménagères",
     "instructions-speciales": "Le poids de la poubelle, incluant son contenu, ne doit pas dépasser 25 kg (55 lbs)"
   },
   {
+    "id": "materiaux",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
     "categorie": "Matériaux de construction",
     "description": "Matériaux de construction",
     "instructions-speciales": "Poids limite par collecte est de 100 kg (220 lbs), les matériaux doivent être attachés en paquets ou placés à l'intérieur de contenants étanches, sans clous ni vis. Chaque paquet ne doit pas peser plus de 25 kg (55 lbs) ni dépasser 1,80 m de long"
   },
   {
+    "id": "terre_jardin",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
     "categorie": "Résidus de jardin",
     "description": "Terre",
     "instructions-speciales": "Maximum de 25 kg (55 lbs) par collecte"
   },
   {
+    "id": "pierre",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
     "categorie": "Résidus de jardin",
     "description": "Pierre et tourbe",
     "instructions-speciales": "Maximum de 10 kg (22 lbs) par collecte"
   },
   {
+    "id": "souches_jardin",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
     "categorie": "Résidus de jardin",
     "description": "Souches, branches et troncs d'arbre",
     "instructions-speciales": "Maximum de 100 kg (220 lbs) par collecte, en paquets de 25 kg (55 lbs) et moins et ne dépassant pas 1,80 de long"
   },
   {
+    "id": "acides",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Acides",
     "instructions-speciales": null
   },
   {
+    "id": "aerosols",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Aérosols",
     "instructions-speciales": null
   },
   {
+    "id": "ampoules",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Ampoules fluocompactes",
     "instructions-speciales": null
   },
   {
+    "id": "bonbonnes",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Bonbonnes de propane",
     "instructions-speciales": null
   },
   {
+    "id": "cartouches",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Résidus TIC",
     "description": "Cartouches d'encre",
     "instructions-speciales": null
   },
   {
+    "id": "colle",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Colle",
     "instructions-speciales": null
   },
   {
+    "id": "diluants",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Diluants et solvants",
     "instructions-speciales": null
   },
   {
+    "id": "huiles",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Huiles à moteur et filtres à huile",
     "instructions-speciales": null
   },
   {
+    "id": "materiel",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Résidus TIC",
     "description": "Matériel informatique et électronique",
     "instructions-speciales": null
   },
   {
+    "id": "medicaments",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Médicaments",
     "instructions-speciales": null
   },
   {
+    "id": "nettoyants",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Nettoyants",
     "instructions-speciales": null
   },
   {
+    "id": "peintures",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Peintures, teintures, vernis",
     "instructions-speciales": null
   },
   {
+    "id": "pesticides",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Pesticides",
     "instructions-speciales": null
   },
   {
+    "id": "petits",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Résidus TIC",
     "description": "Petits appareils électriques et électroniques",
     "instructions-speciales": null
   },
   {
+    "id": "piles",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Piles et accumulateurs (batteries d'auto)",
     "instructions-speciales": null
   },
   {
+    "id": "pneus",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Pneus",
     "description": "Pneus",
     "instructions-speciales": null
   },
   {
+    "id": "produits_chimiques",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "RDD",
     "description": "Produits chimiques",
     "instructions-speciales": null
   },
   {
+    "id": "telephones",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Résidus TIC",
     "description": "Téléphones cellulaires",
     "instructions-speciales": null
   },
   {
+    "id": "televiseurs",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
     "categorie": "Résidus TIC",
     "description": "Téléviseurs",
