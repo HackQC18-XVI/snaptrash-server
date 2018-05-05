@@ -8,6 +8,9 @@ from tf import TFNodeLookup
 
 from utils.exceptions import HTTPError
 
+from synset import get_trash_category_payload
+
+
 app = Flask(__name__)
 
 FLASK_DEBUG = os.environ.get('FLASK_DEBUG', False)
@@ -38,7 +41,8 @@ def predict():
     # obtain the best classification match
     wordnet_id = max(tf_pred, key=lambda x:x['score']).get('wordnet_id')
 
-    return jsonify(tf_pred)
+    payload = get_trash_category_payload(wordnet_id)
+    return jsonify(payload)
 
 
 # Handler for error class
