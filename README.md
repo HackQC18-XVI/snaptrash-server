@@ -1,0 +1,1 @@
+# snaptrash-server
