@@ -16,16 +16,10 @@ SnapTrash uses modern tools
 * [ImageNet](https://wordnet.princeton.edu/) #recognition mapping
 * [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte) #datasets
 
-## Setup
+## Setup and Server Serving Options
+### Run via Docker
+If you don't want to start the server on your localhost directly, you can use our prepared `Dockerfile`, which serves the Flask app at port 5005 (make sure this port is exposed on your VM, etc):
 
-```sh
-python3 -m venv snaptrash.venv
-source snaptrash.venv/bin/activate
-pip install -r requirements.txt
-python -c "import nltk; nltk.download('wordnet'); nltk.download('omw')"
-```
-
-## Docker Setup
 ```sh
 # Build images
 docker-compose build
@@ -37,13 +31,17 @@ docker-compose up -d
 http://localhost:5005
 ```
 
-## Run
+### Run Locally
+If you want to install the flask server and the other dependencies and requirements on your local machine, you can do so this way as well:
 
 ```sh
+python3 -m venv snaptrash.venv
 source snaptrash.venv/bin/activate
+pip install -r requirements.txt
+python -c "import nltk; nltk.download('wordnet'); nltk.download('omw')"
 cd server/
 FLASK_APP='server.py'
-flask run --host=0.0.0.0
+flask run --host=0.0.0.0 --port=5005
 ```
 
 ## Supported Pickup Types
@@ -70,7 +68,7 @@ Get best match in trash categories from a picture
 `/predict`:
 
 ```sh
-HOST='localhost:5000'
+HOST='localhost:5005'
 FILE='banana.jpeg'
 curl -F file=@$FILE $HOST/predict
 ```
@@ -81,7 +79,7 @@ Get best match in trash categories from a WordNet synset ID.
 `/categories/{wordnet_id}`:
 
 ```sh
-HOST='localhost:5000'
+HOST='localhost:5005'
 SYNSET='banana.n.02'
 curl $HOST/categories/$SYNSET
 ```
@@ -93,7 +91,7 @@ You should be in Montreal to obtain the correct **pickup** information (we use o
 `/pickup-info/<pickup_type>?latitude=<latitude_coordinate>&longitude=<long_coordinate>`:
 
 ```sh
-HOST='localhost:5000'
+HOST='localhost:5005'
 curl $HOST/pickup-info/compost?longitude=-73.56229610000003&latitude=45.4946761
 ```
 
@@ -103,6 +101,6 @@ When you have dangerous trash, you would probably need to throw it out at a spec
 `/drop-info/dangerux?latitude=46.8921&longitude=-71.195`
 
 ```sh
-HOST='localhost:5000'
+HOST='localhost:5005'
 curl $HOST/drop-info/dangerux?latitude=46.8921&longitude=-71.195
 ```
