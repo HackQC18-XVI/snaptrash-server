@@ -56,9 +56,9 @@ We use the Laval dataset to categorize the various types of trash that should be
 ## Supported Cities
 We use the datasets from the following cities to help people know where to go to pickup/dropoff their trash:
 
-* Montréal (for pickup)
-* Québec
-* Sherbrooke
+* Montréal (for pickup information **only**)
+* Québec (for dropoff locations **only**)
+* Sherbrooke (for dropoff locations **only**)
 
 ## Usage
 
