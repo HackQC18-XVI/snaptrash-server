@@ -14,7 +14,7 @@ We use [WordNet](https://wordnet.princeton.edu/) to map the recognition labels w
 python3 -m venv snaptrash.venv
 source snaptrash.venv/bin/activate
 pip install -r requirements.txt
-python -c "import nltk; nltk.download('wordnet')"
+python -c "import nltk; nltk.download('wordnet'); nltk.download('omw')"
 ```
 
 ## Run
