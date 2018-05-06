@@ -9,13 +9,14 @@ from tf import TFNodeLookup
 from utils.exceptions import HTTPError
 
 from synset import get_trash_category_payload
+from utils.geo_locator import GeoLocator
 
-
-app = Flask(__name__)
 
 FLASK_DEBUG = os.environ.get('FLASK_DEBUG', False)
-
 SUPPORTED_EXTENSIONS = ('.png', '.jpg', '.jpeg')
+
+app = Flask(__name__)
+geojson_locator = GeoLocator(cities=['montreal'])
 
 
 def allowed_file(filename):
@@ -72,7 +73,12 @@ def get_drop_info(drop_type, latitude, longitude):
 
 
 def get_pickup_info(pickup_type, latitude, longitude):
-    return {}
+    geojson_feature = geojson_locator.get_feature('montreal',
+                                                  'pickup',
+                                                  pickup_type,
+                                                  latitude,
+                                                  longitude)
+    return geojson_feature
 
 
 # Handler for error class
