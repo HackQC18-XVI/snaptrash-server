@@ -49,7 +49,7 @@ class GeoLocator:
         city = self.get_city_name(latitude, longitude)
         if city not in SUPPORTED_PICKUP_CITIES:
             raise HTTPError(404,
-                            f'Requested city: {city} not in {SUPPORTED_PICKUP_CITIES}')
+                            f'Requested city: {city} obtained from ({latitude}, {longitude}) not in {SUPPORTED_PICKUP_CITIES}')
 
         point = Point(longitude, latitude)
 
