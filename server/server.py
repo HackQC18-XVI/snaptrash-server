@@ -54,8 +54,8 @@ def get_category(wordnet_id):
 
 @app.route('/drop-info/<drop_type>', methods=['GET'])
 def drop_info(drop_type):
-    latitude = request.args.get('latitude')
-    longitude = request.args.get('longitude')
+    latitude = float(request.args.get('latitude'))
+    longitude = float(request.args.get('longitude'))
     payload = get_drop_info(drop_type, latitude, longitude)
     return jsonify(payload)
 
