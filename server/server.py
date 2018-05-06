@@ -6,9 +6,8 @@ from flask import jsonify
 from flask import request
 from tf import TFNodeLookup
 
-from utils.exceptions import HTTPError
-
 from synset import get_trash_category_payload
+from utils.exceptions import HTTPError
 from utils.geo_locator import GeoLocator
 
 
@@ -25,7 +24,7 @@ def allowed_file(filename):
 
 @app.route("/ping")
 def ping():
-    return jsonify(geojson_locator.geojson_files)
+    return "ping"
 
 
 @app.route('/predict', methods=['POST'])
@@ -76,8 +75,7 @@ def get_drop_info(drop_type, latitude, longitude):
 
 
 def get_pickup_info(pickup_type, latitude, longitude):
-    geojson_feature = geojson_locator.get_pickup_feature('montreal',
-                                                         pickup_type,
+    geojson_feature = geojson_locator.get_pickup_feature(pickup_type,
                                                          latitude,
                                                          longitude)
     return geojson_feature

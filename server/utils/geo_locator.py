@@ -8,8 +8,11 @@ from geopy.geocoders import Nominatim
 from shapely.geometry import Point
 from shapely.geometry import shape
 
+from utils.exceptions import HTTPError
 
-SUPPORTED_CITIES = ['montreal', 'quebec', 'sherbrooke']
+
+SUPPORTED_PICKUP_CITIES = ['montreal']
+SUPPORTED_DROPOFF_CITIES = ['quebec', 'sherbrooke']
 
 
 def norm(word):
@@ -41,8 +44,13 @@ class GeoLocator:
 
         return geojson_files
 
-    def get_pickup_feature(self, city, type_, latitude, longitude):
+    def get_pickup_feature(self, type_, latitude, longitude):
         """Get appropriate pickup GeoJSON feature"""
+        city = self.get_city_name(latitude, longitude)
+        if city not in SUPPORTED_PICKUP_CITIES:
+            raise HTTPError(404,
+                            f'Requested city: {city} not in {SUPPORTED_PICKUP_CITIES}')
+
         point = Point(longitude, latitude)
 
         # check each polygon to see if it contains the point
@@ -56,8 +64,9 @@ class GeoLocator:
     def get_dropoff_feature(self, type_, latitude, longitude):
         """Get appropriate dropoff GeoJSON feature"""
         city = self.get_city_name(latitude, longitude)
-        if city not in SUPPORTED_CITIES:
-            raise HTTPError(404, f"Requested city from ({latitude}, {longitude}) not found.")
+        if city not in SUPPORTED_DROPOFF_CITIES:
+            raise HTTPError(404,
+                            f'Requested city: {city} obtained from ({latitude}, {longitude}) not found in {SUPPORTED_DROPOFF_CITIES}.')
 
         features = self.geojson_files[city]['drop'][type_]['features']
         closest_dropoff_feature = min(features,
