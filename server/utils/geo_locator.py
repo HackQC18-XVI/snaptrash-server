@@ -8,7 +8,7 @@ from shapely.geometry import Point
 
 class GeoLocator:
 
-    ROOT_DIR = '/home/server/datasets/geojson/'
+    ROOT_DIR = 'datasets/geojson/'
 
     def __init__(self, directory=ROOT_DIR, cities=None):
         cities = cities if cities else []
