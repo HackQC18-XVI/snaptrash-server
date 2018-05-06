@@ -8,6 +8,14 @@ Images are classified by a [TensorFlow](https://www.tensorflow.org/) model train
 
 We use [WordNet](https://wordnet.princeton.edu/) to map the recognition labels with trash disposal categories from [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte).
 
+## Technologies
+SnapTrash uses modern tools
+* [Docker](https://www.docker.com/) #containers
+* [Flask](http://flask.pocoo.org) #server app
+* [TensorFlow](https://www.tensorflow.org/) #image classification
+* [ImageNet](https://wordnet.princeton.edu/) #recognition mapping
+* [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte) #datasets
+
 ## Setup
 
 ```sh
@@ -15,6 +23,18 @@ python3 -m venv snaptrash.venv
 source snaptrash.venv/bin/activate
 pip install -r requirements.txt
 python -c "import nltk; nltk.download('wordnet'); nltk.download('omw')"
+```
+
+## Docker Setup
+```sh
+# Build images
+docker-compose build
+
+# Run containers
+docker-compose up -d
+
+# Make any requests at:
+http://localhost:5005
 ```
 
 ## Run
