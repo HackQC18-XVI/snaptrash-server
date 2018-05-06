@@ -10,11 +10,15 @@ We use [WordNet](https://wordnet.princeton.edu/) to map the recognition labels w
 
 ## Technologies
 SnapTrash uses modern tools
-* [Docker](https://www.docker.com/) #containers
-* [Flask](http://flask.pocoo.org) #server app
-* [TensorFlow](https://www.tensorflow.org/) #image classification
-* [ImageNet](https://wordnet.princeton.edu/) #recognition mapping
-* [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte) #datasets
+* [Docker](https://www.docker.com/) # containers
+* [Flask](http://flask.pocoo.org) # server app
+* [nltk](https://pypi.org/project/nltk/) # natural language processing
+* [TensorFlow](https://www.tensorflow.org/) # image classification
+* [ImageNet](https://wordnet.princeton.edu/) # recognition mapping
+* [Shapely](https://pypi.org/project/Shapely/) # analysis of geometric objects in the cartesian plane
+* [GeoPy](https://pypi.org/project/geopy/) # geocoding services
+* [NumPy](https://pypi.org/project/numpy/) # array-processing package
+* [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte) # datasets
 
 ## Setup and Server Serving Options
 ### Run via Docker
