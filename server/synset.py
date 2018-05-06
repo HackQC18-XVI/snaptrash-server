@@ -20,7 +20,12 @@ def get_trash_category_payload(synset):
     best_match, _score = get_best_match(synset)
 
     payload = [cat for cat in TRASH_CATEGORIES if cat['synset'] == best_match.name()][0]
-    payload['description-wordnet'] = synset.lemmas(lang='fra')[0].name()
+
+    payload['cible-synset'] = synset.name()
+    try:
+        payload['cible-description'] = synset.lemmas(lang='fra')[0].name()
+    except IndexError:
+        pass
     return payload
 
 
