@@ -32,12 +32,12 @@ class GeoLocator:
 
         return geojson_files
 
-    def get_pickup_feature(self, city, type_, latitude, longitude, method='pickup'):
-        """Get the appropriate feature based on the provided GPS coordinates."""
-        point = Point(float(latitude), float(longitude))
+    def get_pickup_feature(self, city, type_, latitude, longitude):
+        """Get appropriate pickup GeoJSON feature"""
+        point = Point(float(longitude), float(latitude))
 
         # check each polygon to see if it contains the point
-        for feature in self.geojson_files[city][method][type_]['features']:
+        for feature in self.geojson_files[city]['pickup'][type_]['features']:
             polygon = shape(feature['geometry'])
             if polygon.contains(point):
                 return feature
