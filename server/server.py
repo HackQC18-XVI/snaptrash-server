@@ -48,6 +48,7 @@ def predict():
 @app.route('/categories/<wordnet_id>', methods=['GET'])
 def get_category(wordnet_id):
     payload = get_trash_category_payload(wordnet_id)
+    return jsonify(payload)
 
 
 @app.route('/drop-info/<drop_type>', methods=['GET'])
