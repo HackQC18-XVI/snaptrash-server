@@ -46,9 +46,28 @@ FLASK_APP='server.py'
 flask run --host=0.0.0.0
 ```
 
+## Supported Pickup Types
+We use the Laval dataset to categorize the various types of trash that should be classified. The types we classify images into are as follows:
+
+* materiaux
+* compost
+* recyclage
+* ordures
+* dangereux
+
+## Supported Cities
+We use the datasets from the following cities to help people know where to go to pickup/dropoff their trash:
+
+* Montréal (for pickup)
+* Québec
+* Sherbrooke
+
 ## Usage
 
-`/predict` (Get best match in trash categories from a picture):
+#### Image prediction
+Get best match in trash categories from a picture
+
+`/predict`:
 
 ```sh
 HOST='localhost:5000'
@@ -56,10 +75,34 @@ FILE='banana.jpeg'
 curl -F file=@$FILE $HOST/predict
 ```
 
-`/categories/{wordnet_id}` (Get best match in trash categories from a WordNet synset ID):
+#### Trash Categories
+Get best match in trash categories from a WordNet synset ID.
+
+`/categories/{wordnet_id}`:
 
 ```sh
 HOST='localhost:5000'
 SYNSET='banana.n.02'
 curl $HOST/categories/$SYNSET
+```
+
+#### Trash Pickup Information
+Get information regarding waste pickup based on location.
+You should be in Montreal to obtain the correct **pickup** information (we use only the Montréal dataset for now) in the form of a **GeoLocation Feature**.
+
+`/pickup-info/<pickup_type>?latitude=<latitude_coordinate>&longitude=<long_coordinate>`:
+
+```sh
+HOST='localhost:5000'
+curl $HOST/pickup-info/compost?longitude=-73.56229610000003&latitude=45.4946761
+```
+
+#### Trash Drop-off Information
+When you have dangerous trash, you would probably need to throw it out at a specific dropoff location. This endpoint gets that information for you in the form of a **GeoLocation Feature**.
+
+`/drop-info/dangerux?latitude=46.8921&longitude=-71.195`
+
+```sh
+HOST='localhost:5000'
+curl $HOST/drop-info/dangerux?latitude=46.8921&longitude=-71.195
 ```
