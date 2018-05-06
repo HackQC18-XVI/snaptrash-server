@@ -25,7 +25,7 @@ def get_trash_category_payload(synset):
     try:
         payload['cible-description'] = synset.lemmas(lang='fra')[0].name()
     except IndexError:
-        pass
+        payload['cible-description'] = None
     return payload
 
 
