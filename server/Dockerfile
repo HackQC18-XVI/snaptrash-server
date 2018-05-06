@@ -19,5 +19,7 @@ COPY            ./                      $HOME
 
 ENV FLASK_APP   $HOME/server.py
 
+RUN             python -c "import nltk; nltk.download('wordnet', '/usr/share/nltk_data')"
+
 # Run server
 CMD             ["flask", "run", "--host=0.0.0.0", "--port=5005"]
