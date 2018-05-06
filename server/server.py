@@ -62,7 +62,7 @@ def drop_info(drop_type):
 def pickup_info(pickup_type):
     latitude = request.args.get('latitude')
     longitude = request.args.get('longitude')
-    payload =  ge_pickup_info(pickup_type, latitude, longitude)
+    payload = get_pickup_info(pickup_type, latitude, longitude)
     return jsonify(payload)
 
 
