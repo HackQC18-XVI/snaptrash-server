@@ -1,4 +1,3 @@
-import enum
 import json
 import operator
 
@@ -13,12 +12,6 @@ with open('datasets/trash_categories.json') as trash_categories_file:
 SYNSET_CHOICES = [wordnet.synset(cat['synset']) for cat in TRASH_CATEGORIES]
 
 
-class PartOfSpeech(enum.auto):
-    """Codes for the various part-of-speech classes
-    """
-    NOUN = 'n'
-
-
 def get_trash_category_payload(synset):
     if isinstance(synset, int):
         synset = get_synset_by_number(synset)
@@ -30,7 +23,7 @@ def get_trash_category_payload(synset):
 
 
 def get_synset_by_number(number):
-    return wordnet.synset_from_pos_and_offset(PartOfSpeech.NOUN, number)
+    return wordnet.synset_from_pos_and_offset(wordnet.NOUN, number)
 
 
 def get_synset_by_name(name):
