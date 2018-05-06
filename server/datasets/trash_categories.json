@@ -186,7 +186,7 @@
     "type-collecte": "materiaux",
     "depot": true,
     "categorie": "Métal et aluminium",
-    "description": "Laveuses, poêles et sécheuses",
+    "description": "Laveuses",
     "instructions-speciales": null
   },
   {
@@ -196,7 +196,7 @@
     "type-collecte": "materiaux",
     "depot": true,
     "categorie": "Métal et aluminium",
-    "description": "Laveuses, poêles et sécheuses",
+    "description": "Sécheuses",
     "instructions-speciales": null
   },
   {
@@ -206,7 +206,7 @@
     "type-collecte": "materiaux",
     "depot": true,
     "categorie": "Métal et aluminium",
-    "description": "Laveuses, poêles et sécheuses",
+    "description": "Poêles",
     "instructions-speciales": null
   },
   {
