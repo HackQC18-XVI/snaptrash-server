@@ -108,3 +108,15 @@ When you have dangerous trash, you would probably need to throw it out at a spec
 HOST='localhost:5005'
 curl $HOST/drop-info/dangerux?latitude=46.8921&longitude=-71.195
 ```
+
+## Datasets Used
+We used the following datasets from their respective cities:
+
+### City of Montréal
+* [Secteurs Info-collectes](https://www.donneesquebec.ca/recherche/fr/dataset/vmtl-info-collectes)
+### Québec
+* [Lieux Publics](https://www.donneesquebec.ca/recherche/fr/dataset/vque_14)
+### Sherbrooke
+* [Écocentres](https://www.donneesquebec.ca/recherche/fr/dataset/ecocentres-liste-et-horaires)
+### Laval
+* [Matières Résiduelles Acceptées Par Collecte](https://www.donneesquebec.ca/recherche/fr/dataset/matieres-residuelles-acceptees-par-collecte)
