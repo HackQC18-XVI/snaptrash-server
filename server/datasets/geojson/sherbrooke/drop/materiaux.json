@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8649351,
+          45.3943941
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre Michel-Ledoux",
+        "adresse": "1000, rue Léon-Trépanier"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9709169,
+          45.4009765
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre Rose-Cohen",
+        "adresse": "365, rue Pépin"
+      }
+    }
+  ]
+}

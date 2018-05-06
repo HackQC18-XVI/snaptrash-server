@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18372107354257,
+          46.88521930314338
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre Beauport",
+        "adresse": "425, boulevard Raymond"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.37346876265237,
+          46.76244690968637
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre de l'Hêtrière",
+        "adresse": "3381, rue de l'Hêtrière"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.27219937649708,
+          46.80160410775752
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre des Rivières",
+        "adresse": "1700, rue Provinciale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.30704941676044,
+          46.86461389682903
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre Jean-Talon (Matrec)",
+        "adresse": "1700, boulevard Jean-Talon Ouest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.45029688051571,
+          46.878427773775876
+        ]
+      },
+      "properties": {
+        "nom": "Écocentre Val-Bélair",
+        "adresse": "1472, rue Jean-Bardot"
+      }
+    }
+  ]
+}
