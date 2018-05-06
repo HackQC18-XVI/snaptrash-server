@@ -28,10 +28,18 @@ flask run --host=0.0.0.0
 
 ## Usage
 
-`/predict` (Get best match in trash categories):
+`/predict` (Get best match in trash categories from a picture):
 
 ```sh
 HOST='localhost:5000'
 FILE='banana.jpeg'
 curl -F file=@$FILE $HOST/predict
+```
+
+`/categories/{wordnet_id}` (Get best match in trash categories from a WordNet synset ID):
+
+```sh
+HOST='localhost:5000'
+SYNSET='banana.n.02'
+curl $HOST/categories/$SYNSET
 ```
