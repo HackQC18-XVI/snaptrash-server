@@ -16,7 +16,7 @@ FLASK_DEBUG = os.environ.get('FLASK_DEBUG', False)
 SUPPORTED_EXTENSIONS = ('.png', '.jpg', '.jpeg')
 
 app = Flask(__name__)
-geojson_locator = GeoLocator(cities=['montreal'])
+geojson_locator = GeoLocator()
 
 
 def allowed_file(filename):
@@ -25,7 +25,7 @@ def allowed_file(filename):
 
 @app.route("/ping")
 def ping():
-    return "pong"
+    return jsonify(geojson_locator.geojson_files)
 
 
 @app.route('/predict', methods=['POST'])
@@ -54,22 +54,25 @@ def get_category(wordnet_id):
 
 @app.route('/drop-info/<drop_type>', methods=['GET'])
 def drop_info(drop_type):
-    latitude = request.args.get('latitude')
-    longitude = request.args.get('longitude')
+    latitude = float(request.args.get('latitude'))
+    longitude = float(request.args.get('longitude'))
     payload = get_drop_info(drop_type, latitude, longitude)
     return jsonify(payload)
 
 
 @app.route('/pickup-info/<pickup_type>', methods=['GET'])
 def pickup_info(pickup_type):
-    latitude = request.args.get('latitude')
-    longitude = request.args.get('longitude')
+    latitude = float(request.args.get('latitude'))
+    longitude = float(request.args.get('longitude'))
     payload = get_pickup_info(pickup_type, latitude, longitude)
     return jsonify(payload)
 
 
 def get_drop_info(drop_type, latitude, longitude):
-    return {}
+    geojson_feature = geojson_locator.get_dropoff_feature(drop_type,
+                                                          latitude,
+                                                          longitude)
+    return geojson_feature
 
 
 def get_pickup_info(pickup_type, latitude, longitude):
