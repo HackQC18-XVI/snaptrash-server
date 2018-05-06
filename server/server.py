@@ -16,7 +16,7 @@ FLASK_DEBUG = os.environ.get('FLASK_DEBUG', False)
 SUPPORTED_EXTENSIONS = ('.png', '.jpg', '.jpeg')
 
 app = Flask(__name__)
-geojson_locator = GeoLocator(cities=['montreal'])
+geojson_locator = GeoLocator()
 
 
 def allowed_file(filename):
@@ -69,7 +69,10 @@ def pickup_info(pickup_type):
 
 
 def get_drop_info(drop_type, latitude, longitude):
-    return {}
+    geojson_feature = geojson_locator.get_dropoff_feature(drop_type,
+                                                          latitude,
+                                                          longitude)
+    return geojson_feature
 
 
 def get_pickup_info(pickup_type, latitude, longitude):
