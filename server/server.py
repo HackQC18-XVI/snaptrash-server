@@ -73,11 +73,10 @@ def get_drop_info(drop_type, latitude, longitude):
 
 
 def get_pickup_info(pickup_type, latitude, longitude):
-    geojson_feature = geojson_locator.get_feature('montreal',
-                                                  'pickup',
-                                                  pickup_type,
-                                                  latitude,
-                                                  longitude)
+    geojson_feature = geojson_locator.get_pickup_feature('montreal',
+                                                         pickup_type,
+                                                         latitude,
+                                                         longitude)
     return geojson_feature
 
 

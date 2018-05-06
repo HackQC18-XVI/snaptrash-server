@@ -32,7 +32,7 @@ class GeoLocator:
 
         return geojson_files
 
-    def get_feature(self, city, method, type_, latitude, longitude):
+    def get_pickup_feature(self, city, type_, latitude, longitude, method='pickup'):
         """Get the appropriate feature based on the provided GPS coordinates."""
         point = Point(float(latitude), float(longitude))
 
