@@ -102,3 +102,8 @@ ENV/
 
 # tf
 .keras/
+
+# waste_stuff
+.python_history
+.bash_history
+*.venv/
