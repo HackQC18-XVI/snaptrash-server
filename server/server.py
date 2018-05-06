@@ -45,6 +45,12 @@ def predict():
     return jsonify(payload)
 
 
+@app.route('/categories/<wordnet_id>', methods=['GET'])
+def get_category(wordnet_id):
+    payload = get_trash_category_payload(wordnet_id)
+    return jsonify(payload)
+
+
 # Handler for error class
 @app.errorhandler(HTTPError)
 def handle_http_error(error):
