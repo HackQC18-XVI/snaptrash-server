@@ -3,6 +3,7 @@
     "id": "copeaux",
     "synset": "matchwood.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Bois",
     "description": "Copeaux de bois",
     "instructions-speciales": "Copeaux de bois d'au moins 1 centimètre d'épaisseur"
@@ -11,6 +12,7 @@
     "id": "planches",
     "synset": "plank.n.02",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Bois",
     "description": "Planches, madriers, bois traité, poutres et dormants de moins de 2 m",
     "instructions-speciales": null
@@ -19,6 +21,7 @@
     "id": "souches",
     "synset": "trunk.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Bois",
     "description": "Souches, troncs d'arbres et branches provenant de Laval et de moins de 2 m de long",
     "instructions-speciales": null
@@ -27,6 +30,7 @@
     "id": "baignoires",
     "synset": "bathtub.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Baignoires",
     "instructions-speciales": null
@@ -35,6 +39,7 @@
     "id": "lavabos",
     "synset": "sink.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Lavabos",
     "instructions-speciales": null
@@ -43,6 +48,7 @@
     "id": "douches",
     "synset": "shower.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Douches",
     "instructions-speciales": null
@@ -51,6 +57,7 @@
     "id": "toilettes",
     "synset": "toilet.n.02",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Toilettes",
     "instructions-speciales": null
@@ -59,6 +66,7 @@
     "id": "bardeaux",
     "synset": "shingle.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Bardeaux de toiture",
     "instructions-speciales": null
@@ -67,6 +75,7 @@
     "id": "beton",
     "synset": "concrete.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Béton, béton armé, mortier et ciment durcis en morceaux",
     "instructions-speciales": "Moins de 30 cm de long"
@@ -75,6 +84,7 @@
     "id": "briques",
     "synset": "brick.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Briques, blocs et pièces de maçonnerie et pavage durci",
     "instructions-speciales": null
@@ -83,6 +93,7 @@
     "id": "ceramique",
     "synset": "ceramic.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Céramique",
     "instructions-speciales": null
@@ -91,6 +102,7 @@
     "id": "isolant",
     "synset": "insulating_material.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Isolant",
     "instructions-speciales": null
@@ -99,6 +111,7 @@
     "id": "platras",
     "synset": "plaster.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Plâtras (gypse, etc.) de moins de 2 m de long",
     "instructions-speciales": null
@@ -107,6 +120,7 @@
     "id": "tapis",
     "synset": "rug.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Tapis et prélart roulés et solidement ficelés de moins de 2 m de long",
     "instructions-speciales": null
@@ -115,6 +129,7 @@
     "id": "tuyaux",
     "synset": "pipe.n.02",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Tuyaux, tubes et drains de moins de 2,4 m de long",
     "instructions-speciales": null
@@ -123,6 +138,7 @@
     "id": "vitre",
     "synset": "glass.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Matériaux de construction",
     "description": "Vitre ",
     "instructions-speciales": null
@@ -131,6 +147,7 @@
     "id": "acier",
     "synset": "steel.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Métal et aluminium",
     "description": "Acier d'armature, câbles et poutres d'acier",
     "instructions-speciales": "Moins de 2,4 m de long"
@@ -139,6 +156,7 @@
     "id": "metaux",
     "synset": "metallic_element.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Métal et aluminium",
     "description": "Fer, fonte, acier et aluminium",
     "instructions-speciales": null
@@ -147,6 +165,7 @@
     "id": "laveuses",
     "synset": "washer.n.03",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Métal et aluminium",
     "description": "Laveuses, poêles et sécheuses",
     "instructions-speciales": null
@@ -155,6 +174,7 @@
     "id": "secheuses",
     "synset": "dryer.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Métal et aluminium",
     "description": "Laveuses, poêles et sécheuses",
     "instructions-speciales": null
@@ -163,6 +183,7 @@
     "id": "poeles",
     "synset": "oven.n.01",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Métal et aluminium",
     "description": "Laveuses, poêles et sécheuses",
     "instructions-speciales": null
@@ -171,6 +192,7 @@
     "id": "reservoirs",
     "synset": "cistern.n.02",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Métal et aluminium",
     "description": "Réservoirs d'eau chaude",
     "instructions-speciales": null
@@ -179,6 +201,7 @@
     "id": "terre",
     "synset": "soil.n.02",
     "nom-collecte": "Aires de réception de matériaux secs",
+    "type-collecte": "materiaux",
     "categorie": "Terre et pierre",
     "description": "Terre de jardin, pierre, sable et tourbe de provenance résidentielle. ",
     "instructions-speciales": "Ces matières sont acceptées uniquement au 4026, boulevard Dagenais Ouest"
@@ -187,6 +210,7 @@
     "id": "filtres",
     "synset": "coffee_filter.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Filtres à café ",
     "instructions-speciales": null
@@ -195,6 +219,7 @@
     "id": "litiere",
     "synset": "bedding_material.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Litière d'animaux",
     "instructions-speciales": null
@@ -203,6 +228,7 @@
     "id": "essuie_tout",
     "synset": "paper_towel.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Essuie-tout",
     "instructions-speciales": null
@@ -211,6 +237,7 @@
     "id": "mouchoirs",
     "synset": "tissue.n.02",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Mouchoirs",
     "instructions-speciales": null
@@ -219,6 +246,7 @@
     "id": "cendres",
     "synset": "ash.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Cendres froides (refroidit pendant 7 jours)",
     "instructions-speciales": null
@@ -227,6 +255,7 @@
     "id": "batonnets",
     "synset": "stick.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Bâtonnets en bois",
     "instructions-speciales": null
@@ -235,6 +264,7 @@
     "id": "cure_dents",
     "synset": "toothpick.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Cure-dents en bois",
     "instructions-speciales": null
@@ -243,6 +273,7 @@
     "id": "cheveux",
     "synset": "hair.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Autres",
     "description": "Cheveux et poils",
     "instructions-speciales": null
@@ -251,6 +282,7 @@
     "id": "fruits",
     "synset": "fruit.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Fruits entiers ou leurs restes",
     "instructions-speciales": null
@@ -259,6 +291,7 @@
     "id": "legumes",
     "synset": "vegetable.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Légumes entiers ou leurs restes",
     "instructions-speciales": null
@@ -267,6 +300,7 @@
     "id": "tea_bag",
     "synset": "tea_bag.n.02",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Sachets de thé",
     "instructions-speciales": null
@@ -275,6 +309,7 @@
     "id": "grains_cafe",
     "synset": "coffee_bean.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Grains de café",
     "instructions-speciales": null
@@ -283,6 +318,7 @@
     "id": "pain",
     "synset": "bread.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Pain",
     "instructions-speciales": null
@@ -291,6 +327,7 @@
     "id": "riz",
     "synset": "rice.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Riz",
     "instructions-speciales": null
@@ -299,6 +336,7 @@
     "id": "cereales",
     "synset": "cereal.n.03",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Céréales",
     "instructions-speciales": null
@@ -307,6 +345,7 @@
     "id": "viandes",
     "synset": "meat.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Viandes, poissons, fruits de mer, volailles, os et coquilles de crustacés",
     "instructions-speciales": null
@@ -315,6 +354,7 @@
     "id": "produits_laitiers_solides",
     "synset": "dairy_product.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Comestible",
     "description": "Produits laitiers solides : fromage, beurre, etc.",
     "instructions-speciales": null
@@ -323,6 +363,7 @@
     "id": "feuilles_mortes",
     "synset": "leaf.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Feuilles mortes",
     "instructions-speciales": null
@@ -331,6 +372,7 @@
     "id": "gazon",
     "synset": "grass.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Gazon",
     "instructions-speciales": null
@@ -339,6 +381,7 @@
     "id": "cones",
     "synset": "cone.n.03",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Cônes de conifères ",
     "instructions-speciales": null
@@ -346,6 +389,7 @@
     "id": "aiguilles",
     "synset": "acerate_leaf.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Aiguilles de conifères ",
     "instructions-speciales": null
@@ -354,6 +398,7 @@
     "id": "plantes",
     "synset": "plant.n.2",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Fleurs, plantes, mauvaises herbes et résidus de jardinage",
     "instructions-speciales": null
@@ -362,6 +407,7 @@
     "id": "foin",
     "synset": "hay.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Foin et paille",
     "instructions-speciales": null
@@ -370,6 +416,7 @@
     "id": "ecorces",
     "synset": "bark.n.01",
     "nom-collecte": "Collecte des matières organiques",
+    "type-collecte": "compost",
     "categorie": "Végétale",
     "description": "Écorces, copeaux, bran de scie et racines",
     "instructions-speciales": null
@@ -378,6 +425,7 @@
     "id": "capsules",
     "synset": "capsule.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Autres",
     "description": "Capsules de café Nespresso",
     "instructions-speciales": "Les capsules de café NESPRESSO sont acceptées dans le bac de recyclage, lorsqu'elles sont déposées dans le sac vert distribué à cet effet par l'entreprise."
@@ -386,6 +434,7 @@
     "id": "papier_contenants_aluminimum",
     "synset": "aluminum_foil.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Métal et aluminium",
     "description": "Papier et contenants d'aluminium",
     "instructions-speciales": null
@@ -394,6 +443,7 @@
     "id": "bouteilles_metal",
     "synset": "canister.n.02",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Métal et aluminium",
     "description": "Bouteilles et canettes d'aluminium",
     "instructions-speciales": null
@@ -402,6 +452,7 @@
     "id": "boites_conserve",
     "synset": "can.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Métal et aluminium",
     "description": "Boîtes de conserve",
     "instructions-speciales": null
@@ -410,6 +461,7 @@
     "id": "bouchons",
     "synset": "bottlecap.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Métal et aluminium",
     "description": "Bouchons et couvercles (Métal)",
     "instructions-speciales": null
@@ -418,6 +470,7 @@
     "id": "journaux",
     "synset": "newspaper.n.04",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Papier et carton",
     "description": "Journaux, circulaires et revues",
     "instructions-speciales": null
@@ -426,6 +479,7 @@
     "id": "papier",
     "synset": "paper.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Papier et carton",
     "description": "Feuilles, enveloppes et sacs de papier",
     "instructions-speciales": null
@@ -434,6 +488,7 @@
     "id": "livres",
     "synset": "book.n.02",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Papier et carton",
     "description": "Livres et annuaires téléphoniques",
     "instructions-speciales": null
@@ -442,6 +497,7 @@
     "id": "rouleaux_boites_carton",
     "synset": "cardboard.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Papier et carton",
     "description": "Rouleaux et boîtes de carton",
     "instructions-speciales": null
@@ -450,6 +506,7 @@
     "id": "cartons_lait_jus",
     "synset": "carton.n.02",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Papier et carton",
     "description": "Cartons de lait et carton de jus et leur bouchon (bien rincés)",
     "instructions-speciales": null
@@ -458,6 +515,7 @@
     "id": "plastiques",
     "synset": "plastic.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Plastique",
     "description": "Plastiques de catégories 1, 2, 3, 4, 5, 7",
     "instructions-speciales": null
@@ -466,6 +524,7 @@
     "id": "sacs_plastique",
     "synset": "plastic_bag.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Plastique",
     "description": "Sacs de plastique",
     "instructions-speciales": null
@@ -474,6 +533,7 @@
     "id": "sacs_pellicules_emballage",
     "synset": "plastic_wrap.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Plastique",
     "description": "Sacs et pellicules d'emballage",
     "instructions-speciales": null
@@ -482,6 +542,7 @@
     "id": "bouteilles_plastique",
     "synset": "water_bottle.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Plastique",
     "description": "Bouteilles (cosmétiques, produits alimentaires, etc.)",
     "instructions-speciales": null
@@ -490,6 +551,7 @@
     "id": "bouteilles_plastique",
     "synset": "bottle.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Verre",
     "description": "Bouteilles (générique)",
     "instructions-speciales": null
@@ -498,6 +560,7 @@
     "id": "bouteilles_vin",
     "synset": "wine_bottle.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Verre",
     "description": "Bouteilles de vin",
     "instructions-speciales": null
@@ -506,6 +569,7 @@
     "id": "bouteilles_biere",
     "synset": "beer_bottle.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Verre",
     "description": "Bouteilles de bière",
     "instructions-speciales": null
@@ -514,6 +578,7 @@
     "id": "bouteilles_fort",
     "synset": "whiskey_bottle.n.01",
     "nom-collecte": "Collecte des matières recyclables",
+    "type-collecte": "recyclage",
     "categorie": "Verre",
     "description": "Bouteilles d'alcool",
     "instructions-speciales": null
@@ -522,6 +587,7 @@
     "id": "ordures",
     "synset": "rubbish.n.01",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
+    "type-collecte": "ordures",
     "categorie": "déchets",
     "description": "ordures ménagères",
     "instructions-speciales": "Le poids de la poubelle, incluant son contenu, ne doit pas dépasser 25 kg (55 lbs)"
@@ -530,6 +596,7 @@
     "id": "materiaux",
     "synset": "building_material.n.01",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
+    "type-collecte": "ordures",
     "categorie": "Matériaux de construction",
     "description": "Matériaux de construction",
     "instructions-speciales": "Poids limite par collecte est de 100 kg (220 lbs), les matériaux doivent être attachés en paquets ou placés à l'intérieur de contenants étanches, sans clous ni vis. Chaque paquet ne doit pas peser plus de 25 kg (55 lbs) ni dépasser 1,80 m de long"
@@ -538,6 +605,7 @@
     "id": "pierre",
     "synset": "gravel.n.01",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
+    "type-collecte": "ordures",
     "categorie": "Résidus de jardin",
     "description": "Pierre",
     "instructions-speciales": "Maximum de 10 kg (22 lbs) par collecte"
@@ -546,6 +614,7 @@
     "id": "tourbe",
     "synset": "turf.n.01",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
+    "type-collecte": "ordures",
     "categorie": "Résidus de jardin",
     "description": "Tourbe",
     "instructions-speciales": "Maximum de 10 kg (22 lbs) par collecte"
@@ -554,6 +623,7 @@
     "id": "souches_jardin",
     "synset": "limb.n.02",
     "nom-collecte": "Collecte des ordures ménagères et autres matières résiduelles",
+    "type-collecte": "ordures",
     "categorie": "Résidus de jardin",
     "description": "Souches, branches et troncs d'arbre",
     "instructions-speciales": "Maximum de 100 kg (220 lbs) par collecte, en paquets de 25 kg (55 lbs) et moins et ne dépassant pas 1,80 de long"
@@ -562,6 +632,7 @@
     "id": "acides",
     "synset": "acid.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Acides",
     "instructions-speciales": null
@@ -570,6 +641,7 @@
     "id": "aerosols",
     "synset": "aerosol.n.02",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Aérosols",
     "instructions-speciales": null
@@ -578,6 +650,7 @@
     "id": "ampoules",
     "synset": "light_bulb.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Ampoules fluocompactes",
     "instructions-speciales": null
@@ -586,6 +659,7 @@
     "id": "bonbonnes",
     "synset": "gas_tank.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Bonbonnes de propane",
     "instructions-speciales": null
@@ -594,6 +668,7 @@
     "id": "cartouches_encre",
     "synset": "ink_cartridge.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "Résidus TIC",
     "description": "Cartouches d'encre",
     "instructions-speciales": null
@@ -602,6 +677,7 @@
     "id": "colle",
     "synset": "glue.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Colle",
     "instructions-speciales": null
@@ -610,6 +686,7 @@
     "id": "diluants",
     "synset": "dilutant.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Diluants",
     "instructions-speciales": null
@@ -618,6 +695,7 @@
     "id": "diluants",
     "synset": "solvent.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Solvants",
     "instructions-speciales": null
@@ -626,6 +704,7 @@
     "id": "huiles",
     "synset": "oil_filter.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Huiles à moteur",
     "instructions-speciales": null
@@ -634,6 +713,7 @@
     "id": "filtres_huile",
     "synset": "motor_oil.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Filtres à huile",
     "instructions-speciales": null
@@ -642,6 +722,7 @@
     "id": "materiel_informatique",
     "synset": "electronic_device.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "Résidus TIC",
     "description": "Matériel informatique et électronique",
     "instructions-speciales": null
@@ -650,6 +731,7 @@
     "id": "medicaments",
     "synset": "medicine.n.02",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Médicaments",
     "instructions-speciales": null
@@ -658,6 +740,7 @@
     "id": "nettoyants",
     "synset": "cleansing_agent.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Nettoyants",
     "instructions-speciales": null
@@ -666,6 +749,7 @@
     "id": "peintures",
     "synset": "paint.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Peintures, teintures, vernis",
     "instructions-speciales": null
@@ -674,6 +758,7 @@
     "id": "pesticides",
     "synset": "pesticide.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Pesticides",
     "instructions-speciales": null
@@ -682,6 +767,7 @@
     "id": "petits_appareils",
     "synset": "home_appliance.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "Résidus TIC",
     "description": "Petits appareils électriques et électroniques",
     "instructions-speciales": null
@@ -690,6 +776,7 @@
     "id": "piles",
     "synset": "battery.n.02",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Piles et accumulateurs (batteries d'auto)",
     "instructions-speciales": null
@@ -698,6 +785,7 @@
     "id": "pneus",
     "synset": "tire.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "Pneus",
     "description": "Pneus",
     "instructions-speciales": null
@@ -706,6 +794,7 @@
     "id": "produits_chimiques",
     "synset": "chemical.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "RDD",
     "description": "Produits chimiques",
     "instructions-speciales": null
@@ -714,6 +803,7 @@
     "id": "telephones",
     "synset": "cellular_telephone.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "Résidus TIC",
     "description": "Téléphones cellulaires",
     "instructions-speciales": null
@@ -722,6 +812,7 @@
     "id": "televiseurs",
     "synset": "television.n.01",
     "nom-collecte": "Collecte des résidus domestiques dangereux",
+    "type-collecte": "dangereux",
     "categorie": "Résidus TIC",
     "description": "Téléviseurs",
     "instructions-speciales": null
