@@ -19,7 +19,9 @@ def get_trash_category_payload(synset):
         synset = get_synset_by_name(synset)
     best_match, _score = get_best_match(synset)
 
-    return [cat for cat in TRASH_CATEGORIES if cat['synset'] == best_match.name()][0]
+    payload = [cat for cat in TRASH_CATEGORIES if cat['synset'] == best_match.name()][0]
+    payload['description-wordnet'] = synset.lemmas(lang='fra')[0].name()
+    return payload
 
 
 def get_synset_by_number(number):
