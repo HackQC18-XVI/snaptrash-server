@@ -25,7 +25,7 @@ def allowed_file(filename):
 
 @app.route("/ping")
 def ping():
-    return "pong"
+    return jsonify(geojson_locator.geojson_files)
 
 
 @app.route('/predict', methods=['POST'])
@@ -62,8 +62,8 @@ def drop_info(drop_type):
 
 @app.route('/pickup-info/<pickup_type>', methods=['GET'])
 def pickup_info(pickup_type):
-    latitude = request.args.get('latitude')
-    longitude = request.args.get('longitude')
+    latitude = float(request.args.get('latitude'))
+    longitude = float(request.args.get('longitude'))
     payload = get_pickup_info(pickup_type, latitude, longitude)
     return jsonify(payload)
 
