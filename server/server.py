@@ -48,7 +48,30 @@ def predict():
 @app.route('/categories/<wordnet_id>', methods=['GET'])
 def get_category(wordnet_id):
     payload = get_trash_category_payload(wordnet_id)
+
+
+@app.route('/drop-info/<drop_type>', methods=['GET'])
+def drop_info(drop_type):
+    latitude = request.args.get('latitude')
+    longitude = request.args.get('longitude')
+    payload = get_drop_info(drop_type, latitude, longitude)
     return jsonify(payload)
+
+
+@app.route('/pickup-info/<pickup_type>', methods=['GET'])
+def pickup_info(pickup_type):
+    latitude = request.args.get('latitude')
+    longitude = request.args.get('longitude')
+    payload =  ge_pickup_info(pickup_type, latitude, longitude)
+    return jsonify(payload)
+
+
+def get_drop_info(drop_type, latitude, longitude):
+    return {}
+
+
+def get_pickup_info(pickup_type, latitude, longitude):
+    return {}
 
 
 # Handler for error class
