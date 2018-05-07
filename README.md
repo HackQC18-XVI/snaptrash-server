@@ -102,11 +102,11 @@ curl $HOST/pickup-info/compost?longitude=-73.56229610000003&latitude=45.4946761
 #### Trash Drop-off Information
 When you have dangerous trash, you would probably need to throw it out at a specific dropoff location. This endpoint gets that information for you in the form of a **GeoLocation Feature**.
 
-`/drop-info/dangerux?latitude=46.8921&longitude=-71.195`
+`/drop-info/dangereux?latitude=46.8921&longitude=-71.195`
 
 ```sh
 HOST='localhost:5005'
-curl $HOST/drop-info/dangerux?latitude=46.8921&longitude=-71.195
+curl $HOST/drop-info/dangereux?latitude=46.8921&longitude=-71.195
 ```
 
 ## Datasets Used
